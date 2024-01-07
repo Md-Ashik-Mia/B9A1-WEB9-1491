@@ -18,7 +18,7 @@ header{
 .container{
     width: 82.5%;
     margin: 0 auto;
-    /* background-color: rgb(85, 67, 67); */
+    background-color: rgb(85, 67, 67);
     max-width: 1320px;
 }
  
@@ -100,7 +100,56 @@ width: 802.9px;
 height: 500px; 
 margin-bottom: 120px;   
 }
-
-
-
 /* sixtyfiveSection Ends Here  */
+/* Welcome Section Starts here  */
+
+
+.welcome{
+    height: 600px;
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Vectorrr.png');
+    margin-bottom: 120px;
+    display: flex;
+    padding-left: 126px;
+    padding-right: 108px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 39.17px;
+}
+
+.welcome .welcomeLeft h1{
+color: #FFF;
+font-family: Merriweather;
+font-size: 64px;
+font-weight: 900;
+line-height: 88px;
+letter-spacing: 7.04px;
+margin-bottom: 24px;
+}
+.welcome .welcomeLeft p{
+color: rgba(255, 255, 255, 0.80);
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+margin-bottom: 48px;
+}
+.welcome .welcomeLeft button{
+color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+background: none;
+border: none;
+margin-left: 32px;
+}
+
+.welcome .welcomeRight img{
+    width: 319px;
+    height: 464px;
+}
+
+/* Welcome Section Ends here  */
