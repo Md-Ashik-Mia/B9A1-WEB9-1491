@@ -18,7 +18,7 @@ header{
 .container{
     width: 82.5%;
     margin: 0 auto;
-    background-color: rgb(85, 67, 67);
+    /* background-color: rgb(85, 67, 67); */
     max-width: 1320px;
 }
  
@@ -65,7 +65,7 @@ margin-bottom: 16px;
 
 /* sixtyfiveSection Starts Here  */
 .sixtyfiveSection{
-    margin: 0px  auto;
+margin: 0px  auto;
  width: 802.9px;
  text-align: center;
 }
@@ -84,6 +84,21 @@ text-align: center;
 font-family: Inter;
 font-size: 24px;
 font-weight: 500;
+margin-bottom: 16px;
+}
+
+.sixtyfiveSection h2{
+color: #070211;
+text-align: center;
+font-family: Inter;
+font-size: 48px;
+font-weight: 700;
+margin-bottom: 48px;
+}
+.sixtyfiveSection img{
+width: 802.9px;
+height: 500px; 
+margin-bottom: 120px;   
 }
 
 
