@@ -21,6 +21,12 @@ header{
     /* background-color: rgb(136, 199, 247); */
     max-width: 1320px;
 }
+button{
+    cursor: pointer;
+}
+.joinNow:hover{
+background-color: yellowgreen;
+}
  
 /* Shared Style Ends Here */
 
@@ -146,6 +152,13 @@ background: none;
 border: none;
 margin-left: 32px;
 }
+.welcome .welcomeLeft button:hover{
+    padding: 20px;
+    background-color: yellowgreen;
+    color: black;
+    border-radius: 5px;
+}
+
 
 .welcome .welcomeRight img{
     width: 319px;
@@ -391,8 +404,9 @@ height: 450px;
     text-align: center;
     height: 616px;
     border-radius: 16px;
-background-color: rgba(255, 0, 0, 0.05);
+    background-color: rgba(255, 0, 0, 0.05);
     padding-top: 80px;
+    margin-bottom: 120px;
 
 }
 .subscribeCenter{
@@ -439,6 +453,7 @@ margin: 0px auto;
     font-weight: 400;
 }
 .inputFieldAndButtonSubscribe button{
+    cursor: pointer;
 border-radius: 0px 50px 50px 0px;
 background-color:  #F00;
 padding: 24px 56px;
@@ -452,8 +467,88 @@ position: absolute;
 right: 0px;
 top: 0px;
 }
-
-
-
-
+.inputFieldAndButtonSubscribe button:active{
+    background-color: #4c2319;
+}
 /* subscibe Section Ends Here  */
+
+/* footer starts here  */
+footer{
+    background-color: #070211;
+    color: white;
+}
+.footer{
+    height: 609px;
+    padding-top: 120px;
+}
+.footer .firstDiv{
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 120px; */
+}
+.firstDiv{
+    margin-bottom: 50px;
+}
+.firstDiv p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    width: 375px;
+}
+.rightHeaders{
+    width: 386px;
+    /* text-align: left; */
+}
+.rightHeaders h6{
+display: inline;
+color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 40px; 
+}
+
+.rightHeaders img{
+    height: 24px;
+    width: 24px;
+    margin-right: 16px;
+}
+.secondDiv{
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+.links{
+    padding: 48px 0px ;
+}
+.links a {
+    margin: 0px 12px;
+}
+.secondDiv hr{
+    /* background-color:   */
+    border : 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.thirdDiv{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerCopyRights{
+color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+}
+
+.unsubscribe{
+color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+
+}
+/* footer ends here  */
+
