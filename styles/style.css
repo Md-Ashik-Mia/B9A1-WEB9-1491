@@ -1,554 +1,544 @@
 /* Universal Styles Starts Here */
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
- @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
 
-*{
-    margin:0px;
-    padding: 0px;
-    list-style: none;
-    text-decoration: none;
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  text-decoration: none;
 }
-header{
-    padding-top: 50px;
-    padding-bottom: 120px;
+header {
+  padding-top: 50px;
+  padding-bottom: 120px;
 }
 /* Universal Styles Ends Here */
 
 /* Shared Style Starts Here */
-.container{
-    width: 82.5%;
-    margin: 0 auto;
-    /* background-color: rgb(136, 199, 247); */
-    max-width: 1320px;
+.container {
+  width: 82.5%;
+  margin: 0 auto;
+  /* background-color: rgb(136, 199, 247); */
+  max-width: 1320px;
 }
-button{
-    cursor: pointer;
+button {
+  cursor: pointer;
 }
-.joinNow:hover{
-background-color: yellowgreen;
+.joinNow:hover {
+  background-color: yellowgreen;
 }
- 
+
 /* Shared Style Ends Here */
 
 /* NewYear Section starts here  */
-.happyNewYear{
-border-radius: 16px;
-background-image:linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Banner\ Image.png');
-background-repeat: no-repeat;
-height: 600px;
-display: flex;
-align-items: center;
-justify-content: center;
-
+.happyNewYear {
+  border-radius: 16px;
+  background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("../resources/Banner\ Image.png");
+  background-repeat: no-repeat;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.happyNewYearContent{
-    width: 632px;
-    text-align: center;
+.happyNewYearContent {
+  width: 632px;
+  text-align: center;
 }
-.happyNewYearContent h3{
-color: #FFF;
-text-align: center;
-font-family: Merriweather;
-font-size: 32px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-margin-bottom: 16px;
+.happyNewYearContent h3 {
+  color: #fff;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 16px;
 }
 
-.happyNewYearContent h1{
-    color: #FFF;
-    text-align: center;
-    font-family: Merriweather;
-    font-size: 72px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: 95px; /* 131.944% */
-
+.happyNewYearContent h1 {
+  color: #fff;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 95px; /* 131.944% */
 }
 /* NewYear Section ends here  */
 
-
 /* sixtyfiveSection Starts Here  */
-.sixtyfiveSection{
-margin: 0px  auto;
- width: 802.9px;
- text-align: center;
+.sixtyfiveSection {
+  margin: 0px auto;
+  width: 802.9px;
+  text-align: center;
 }
-.sixtyfiveSection h1{
+.sixtyfiveSection h1 {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 88px;
+  font-weight: 700;
+  margin-bottom: 48px;
+}
+.sixtyfiveSection h4 {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
 
-color: #F00;
-text-align: center;
-font-family: Inter;
-font-size: 88px;
-font-weight: 700;
-margin-bottom: 48px;
+.sixtyfiveSection h2 {
+  color: #070211;
+  text-align: center;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 48px;
 }
-.sixtyfiveSection h4{
-color: #F00;
-text-align: center;
-font-family: Inter;
-font-size: 24px;
-font-weight: 500;
-margin-bottom: 16px;
-}
-
-.sixtyfiveSection h2{
-color: #070211;
-text-align: center;
-font-family: Inter;
-font-size: 48px;
-font-weight: 700;
-margin-bottom: 48px;
-}
-.sixtyfiveSection img{
-width: 802.9px;
-height: 500px; 
-margin-bottom: 120px;   
+.sixtyfiveSection img {
+  width: 802.9px;
+  height: 500px;
+  margin-bottom: 120px;
 }
 /* sixtyfiveSection Ends Here  */
 /* Welcome Section Starts here  */
 
-
-.welcome{
-    height: 600px;
-    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Vectorrr.png');
-    margin-bottom: 120px;
-    display: flex;
-    padding-left: 126px;
-    padding-right: 108px;
-    align-items: center;
-    justify-content: space-between;
-    gap: 39.17px;
+.welcome {
+  height: 600px;
+  background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("../resources/Vectorrr.png");
+  margin-bottom: 120px;
+  display: flex;
+  padding-left: 126px;
+  padding-right: 108px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 39.17px;
 }
 
-.welcome .welcomeLeft h1{
-color: #FFF;
-font-family: Merriweather;
-font-size: 64px;
-font-weight: 900;
-line-height: 88px;
-letter-spacing: 7.04px;
-margin-bottom: 24px;
+.welcome .welcomeLeft h1 {
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 88px;
+  letter-spacing: 7.04px;
+  margin-bottom: 24px;
 }
-.welcome .welcomeLeft p{
-color: rgba(255, 255, 255, 0.80);
-font-family: Inter;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px; /* 166.667% */
-margin-bottom: 48px;
+.welcome .welcomeLeft p {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+  margin-bottom: 48px;
 }
-.welcome .welcomeLeft button{
-color: #FFF;
-text-align: center;
-font-family: Inter;
-font-size: 20px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-background: none;
-border: none;
-margin-left: 32px;
+.welcome .welcomeLeft button {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  background: none;
+  border: none;
+  margin-left: 32px;
 }
-.welcome .welcomeLeft button:hover{
-    padding: 20px;
-    background-color: yellowgreen;
-    color: black;
-    border-radius: 5px;
+.welcome .welcomeLeft button:hover {
+  padding: 20px;
+  background-color: yellowgreen;
+  color: black;
+  border-radius: 5px;
 }
 
-
-.welcome .welcomeRight img{
-    width: 319px;
-    height: 464px;
+.welcome .welcomeRight img {
+  width: 319px;
+  height: 464px;
 }
 
 /* Welcome Section Ends here  */
 
 /* place section starts Here  */
-.place{
-    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 482px;
-    margin-bottom: 120px;
+.place {
+  background-image: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 482px;
+  margin-bottom: 120px;
 }
-.placeHeaders{
-    width: 549px;
-    height: 168px;
-    margin-bottom: 48px;
-    margin-top: 100px;
+.placeHeaders {
+  width: 549px;
+  height: 168px;
+  margin-bottom: 48px;
+  margin-top: 100px;
 }
-.placeHeaders h1{
-color: #070211;
-text-align: center;
-font-family: Inter;
-font-size: 32px;
-font-style: normal;
-font-weight: 600;
-line-height: 56px; /* 175% */
-text-transform: capitalize;
+.placeHeaders h1 {
+  color: #070211;
+  text-align: center;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px; /* 175% */
+  text-transform: capitalize;
 }
-.placeHeaders h1 span{
-    color: #F00;
+.placeHeaders h1 span {
+  color: #f00;
 }
 
 .place button {
-color: #FFF;
-text-align: center;
-font-family: Inter;
-font-size: 20px;
-font-weight: 700;
-padding: 16px 32px;
-border-radius: 8px;
-background-color: #F00;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 16px 32px;
+  border-radius: 8px;
+  background-color: #f00;
 }
-
-
 
 /* place section ends Here  */
 
 /* comingSoon section starts here  */
-.comingSoon{
-    height: 463px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 120px;
+.comingSoon {
+  height: 463px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 120px;
 }
 
-.comingSoonLeft{
-    width: 393px;
+.comingSoonLeft {
+  width: 393px;
 }
-.comingSoonLeft h6{
-color: #F00;
-font-family: Inter;
-font-size: 24px;
-font-weight: 500;
-margin-bottom: 16px;
+.comingSoonLeft h6 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 16px;
 }
-.comingSoonLeft h2{
-color: #070211;
-font-family: Merriweather;
-font-size: 48px;
-font-weight: 900;
-margin-bottom: 22px;
-
+.comingSoonLeft h2 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 22px;
 }
-.comingSoonLeft p{
- color: rgba(7, 2, 17, 0.60);
-font-family: Inter;
-font-size: 20px;
-font-weight: 400;
-line-height: 32px;
+.comingSoonLeft p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
 }
-.comingSoonRight{
-    width: 276px;
+.comingSoonRight {
+  width: 276px;
 }
-.comingSoonRight h3{
-color: #F00;
-font-family: Inter;
-font-size: 48px;
-font-weight: 700;
-margin-bottom: 16px;
+.comingSoonRight h3 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 16px;
 }
 .comingSoonRight p {
-color: rgba(7, 2, 17, 0.60);
-font-family: Inter;
-font-size: 20px;
-font-weight: 400;
-line-height: 32px;
-margin-bottom: 43px;
-
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  margin-bottom: 43px;
 }
-.comingSoonRight img{
-width: 140px;
-height: 140px;
-
+.comingSoonRight img {
+  width: 140px;
+  height: 140px;
 }
-.comingSoonMiddle img{
-border-radius: 50%;
-padding: 35px;
-border: 15px solid #F00;
+.comingSoonMiddle img {
+  border-radius: 50%;
+  padding: 35px;
+  border: 15px solid #f00;
 }
 /* comingSoon section ends here  */
 /* holiday Section Starts here  */
-.holidaysSale{
-text-align: center;
+.holidaysSale {
+  text-align: center;
 }
-.outer{
-    width: 1068px;
-    margin: 0px  auto;
-    text-align: center;
-}
-
-.holidaysSale h5{
-color: #070211;
-font-family: Inter;
-font-size: 24px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-margin-bottom: 16px;
-}
-.holidaysSale h1{
-color: #070211;
-font-family: Merriweather;
-font-size: 72px;
-font-weight: 900;
-margin-bottom: 28px;
+.outer {
+  width: 1068px;
+  margin: 0px auto;
+  text-align: center;
 }
 
-.holidaysSale h1 span{
-color: #F00;
+.holidaysSale h5 {
+  color: #070211;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 16px;
+}
+.holidaysSale h1 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+  margin-bottom: 28px;
 }
 
-.holidaysSale p{
-color: rgba(7, 2, 17, 0.60);
-font-family: Inter;
-font-size: 20px;
-font-weight: 500;
-line-height: 32px;
-margin-bottom: 64px;
-}
-.girlDiscount{
-    height: 662px;
-    display: flex;
-    background-image: url('../resources/Rectangle\ 2.png');
-    background-position: bottom center;
-    background-repeat: no-repeat;
-    margin-bottom: 120px;
-
-}
-.discountLeft, .discountRight{
-    width: 50%;
-}
-.discountRight{
-   background-image: url('../resources/Rectangle\ 1.png');
-   background-repeat: no-repeat;
-   background-position: top right;
-   position: relative;
-   z-index: -1;
+.holidaysSale h1 span {
+  color: #f00;
 }
 
-.discountLeft img{
+.holidaysSale p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  margin-bottom: 64px;
+}
+.girlDiscount {
+  height: 662px;
+  display: flex;
+  background-image: url("../resources/Rectangle\ 2.png");
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  margin-bottom: 120px;
+}
+.discountLeft,
+.discountRight {
+  width: 50%;
+}
+.discountRight {
+  background-image: url("../resources/Rectangle\ 1.png");
+  background-repeat: no-repeat;
+  background-position: top right;
+  position: relative;
+  z-index: -1;
+}
 
+.discountLeft img {
 }
 .discountRight img {
-   position: absolute;
-   top: 86px;
-   right: 285px;
-   /* left: 70px; */
+  position: absolute;
+  top: 86px;
+  right: 285px;
+  /* left: 70px; */
 }
 
 /* holiday Section Ends here  */
 
 /* awesome Section Starts Here  */
-.awesome{
-margin-bottom: 120px;
+.awesome {
+  margin-bottom: 120px;
 }
-.awesome h6{
-color: #F00;
-font-family: Inter;
-font-size: 24px;
-font-weight: 500;
-margin-bottom: 16px;
+.awesome h6 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 16px;
 }
-.awesome h3{
-color: #070211;
-font-family: Merriweather;
-font-size: 48px;
-font-weight: 900;
-margin-bottom: 22px;
-
+.awesome h3 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 22px;
 }
-.awesome p{
-width: 896px;
-color: rgba(7, 2, 17, 0.60);
-font-family: Inter;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: 32px; /* 160% */
-margin-bottom: 48px;
+.awesome p {
+  width: 896px;
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+  margin-bottom: 48px;
 }
-.awesome .awesomeBoxes{
-    height:924px;
+.awesome .awesomeBoxes {
+  height: 924px;
 }
-.awesome .awesomeBoxes .firstRow, .awesome .awesomeBoxes .secondRow{
-    display: flex;
-    gap: 24px;
+.awesome .awesomeBoxes .firstRow,
+.awesome .awesomeBoxes .secondRow {
+  display: flex;
+  gap: 24px;
 }
-.awesome .awesomeBoxes .firstRow{
-    margin-bottom:  24px;
+.awesome .awesomeBoxes .firstRow {
+  margin-bottom: 24px;
 }
-.box img{
-width: 424px;
-height: 450px;
+.box img {
+  width: 424px;
+  height: 450px;
 }
-.box{
-    transition: all 1 linear;
+.box {
+  transition: all 1 linear;
 }
-.box:hover{
-    scale: 1.10;
+.box:hover {
+  scale: 1.1;
 }
 /* awesome Section ends Here  */
 
 /* subscibe Section Starts Here  */
-.subscribe{
-    text-align: center;
-    height: 616px;
-    border-radius: 16px;
-    background-color: rgba(255, 0, 0, 0.05);
-    padding-top: 80px;
-    margin-bottom: 120px;
-
+.subscribe {
+  text-align: center;
+  height: 616px;
+  border-radius: 16px;
+  background-color: rgba(255, 0, 0, 0.05);
+  padding-top: 80px;
+  margin-bottom: 120px;
 }
-.subscribeCenter{
-    margin: 0px auto ;
-    width: 896px;
+.subscribeCenter {
+  margin: 0px auto;
+  width: 896px;
 }
-.subscribe img{
-    width: 150px;
-    height: 150px;
-    margin-bottom: 40px;
+.subscribe img {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 40px;
 }
-.subscribe h2{
-color: #070211;
-text-align: center;
-font-family: Merriweather;
-font-size: 48px;
-font-weight: 900;
-margin-bottom: 22px;
+.subscribe h2 {
+  color: #070211;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 22px;
 }
 .subscribe p {
-color: rgba(7, 2, 17, 0.60);
-text-align: center;
-font-family: Inter;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: 32px;
-margin-bottom: 48px;
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  margin-bottom: 48px;
 }
-.inputFieldAndButtonSubscribe{
-position: relative;
-width: 648px;
-margin: 0px auto;
+.inputFieldAndButtonSubscribe {
+  position: relative;
+  width: 648px;
+  margin: 0px auto;
 }
-.inputFieldAndButtonSubscribe input{
-    width: 618px;
-    height: 22px;
-    border-radius: 50px;
-    border: none;
-    padding: 25px 0px 25px 30px;
-    color: rgba(7, 2, 17, 0.30);
-    font-family: Inter;
-    font-size: 18px;
-    font-weight: 400;
+.inputFieldAndButtonSubscribe input {
+  width: 618px;
+  height: 22px;
+  border-radius: 50px;
+  border: none;
+  padding: 25px 0px 25px 30px;
+  color: rgba(7, 2, 17, 0.3);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
 }
-.inputFieldAndButtonSubscribe button{
-    cursor: pointer;
-border-radius: 0px 50px 50px 0px;
-background-color:  #F00;
-padding: 24px 56px;
-color: #FFF;
-text-align: center;
-font-family: Inter;
-font-size: 20px;
-font-weight: 600;
-border: none;
-position: absolute;
-right: 0px;
-top: 0px;
+.inputFieldAndButtonSubscribe button {
+  cursor: pointer;
+  border-radius: 0px 50px 50px 0px;
+  background-color: #f00;
+  padding: 24px 56px;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  border: none;
+  position: absolute;
+  right: 0px;
+  top: 0px;
 }
-.inputFieldAndButtonSubscribe button:active{
-    background-color: #4c2319;
+.inputFieldAndButtonSubscribe button:active {
+  background-color: #4c2319;
 }
 /* subscibe Section Ends Here  */
 
 /* footer starts here  */
-footer{
-    background-color: #070211;
-    color: white;
+footer {
+  background-color: #070211;
+  color: white;
 }
-.footer{
-    height: 609px;
-    padding-top: 120px;
+.footer {
+  height: 609px;
+  padding-top: 120px;
 }
-.footer .firstDiv{
-    display: flex;
-    justify-content: space-between;
-    /* margin-top: 120px; */
+.footer .firstDiv {
+  display: flex;
+  justify-content: space-between;
+  /* margin-top: 120px; */
 }
-.firstDiv{
-    margin-bottom: 50px;
+.firstDiv {
+  margin-bottom: 50px;
 }
 .firstDiv p {
-    color: #FFF;
-    font-family: Inter;
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 40px;
-    width: 375px;
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+  width: 375px;
 }
-.rightHeaders{
-    width: 386px;
-    /* text-align: left; */
+.rightHeaders {
+  width: 386px;
+  /* text-align: left; */
 }
-.rightHeaders h6{
-display: inline;
-color: #FFF;
-font-family: Inter;
-font-size: 24px;
-font-weight: 500;
-line-height: 40px; 
+.rightHeaders h6 {
+  display: inline;
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
 }
 
-.rightHeaders img{
-    height: 24px;
-    width: 24px;
-    margin-right: 16px;
+.rightHeaders img {
+  height: 24px;
+  width: 24px;
+  margin-right: 16px;
 }
-.secondDiv{
-    text-align: center;
-    margin-bottom: 50px;
-
+.secondDiv {
+  text-align: center;
+  margin-bottom: 50px;
 }
-.links{
-    padding: 48px 0px ;
+.links {
+  padding: 48px 0px;
 }
 .links a {
-    margin: 0px 12px;
+  margin: 0px 12px;
 }
-.secondDiv hr{
-    /* background-color:   */
-    border : 1px solid rgba(255, 255, 255, 0.15);
-}
-
-.thirdDiv{
-    display: flex;
-    justify-content: space-between;
+.secondDiv hr {
+  /* background-color:   */
+  border: 1px solid rgba(255, 255, 255, 0.15);
 }
 
-.footerCopyRights{
-color: #FFF;
-font-family: Inter;
-font-size: 24px;
-font-weight: 500;
+.thirdDiv {
+  display: flex;
+  justify-content: space-between;
 }
 
-.unsubscribe{
-color: #FFF;
-font-family: Inter;
-font-size: 24px;
-font-weight: 500;
+.footerCopyRights {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
 
+.unsubscribe {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
 }
 /* footer ends here  */
-
