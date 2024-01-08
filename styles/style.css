@@ -384,8 +384,76 @@ height: 450px;
 .box:hover{
     scale: 1.10;
 }
-
-
-
-
 /* awesome Section ends Here  */
+
+/* subscibe Section Starts Here  */
+.subscribe{
+    text-align: center;
+    height: 616px;
+    border-radius: 16px;
+background-color: rgba(255, 0, 0, 0.05);
+    padding-top: 80px;
+
+}
+.subscribeCenter{
+    margin: 0px auto ;
+    width: 896px;
+}
+.subscribe img{
+    width: 150px;
+    height: 150px;
+    margin-bottom: 40px;
+}
+.subscribe h2{
+color: #070211;
+text-align: center;
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+margin-bottom: 22px;
+}
+.subscribe p {
+color: rgba(7, 2, 17, 0.60);
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+margin-bottom: 48px;
+}
+.inputFieldAndButtonSubscribe{
+position: relative;
+width: 648px;
+margin: 0px auto;
+}
+.inputFieldAndButtonSubscribe input{
+    width: 618px;
+    height: 22px;
+    border-radius: 50px;
+    border: none;
+    padding: 25px 0px 25px 30px;
+    color: rgba(7, 2, 17, 0.30);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+}
+.inputFieldAndButtonSubscribe button{
+border-radius: 0px 50px 50px 0px;
+background-color:  #F00;
+padding: 24px 56px;
+color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-weight: 600;
+border: none;
+position: absolute;
+right: 0px;
+top: 0px;
+}
+
+
+
+
+/* subscibe Section Ends Here  */
